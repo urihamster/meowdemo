@@ -67,6 +67,7 @@ function get_message(message){
     var classy = (message.sender==cat ? 'chat-me' : 'chat-other');
 
     if (message.type=='text'){    
+        if (message.sender>0) message.value = 'MeowMeow';
         var the_element = '<div class="chat-message chat-text '+classy+'">'+message.value+'</div>';
     }
     else if (message.type=='sticker'){
@@ -201,9 +202,11 @@ function set_character(){
 
     if (cat>0){ 
         set_character_stickers(cat_stickers);
+        $('#human-keys').hide();
         setInterval(tick(),5000);
     }
     else{ 
+        $('#the-keyboard').hide();
         set_character_stickers(human_stickers);
     }
 };

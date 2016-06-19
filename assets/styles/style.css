@@ -134,6 +134,7 @@ body {
 .chat-message{
 	font-size: 32px;
 	width: 70%;
+	
 	/*background: url('../images/screen-chat/bubble-friend.svg') no-repeat center;*/
 	background-color: white;
 	border: solid;
@@ -212,6 +213,10 @@ body {
 	width:85px;
 	margin: 1px;
 
+}
+
+#human-keys{
+	background:url('../images/screen-chat/Keyboard-human.svg') no-repeat center;;
 }
 
 
