@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="87px" height="48px" viewBox="0 0 87 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>bubble-typing</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="chat-human-keyboard" transform="translate(-20.000000, -419.000000)" fill="#DBEBFF">
+            <g id="typing" transform="translate(20.000000, 419.341549)">
+                <path d="M83.5240014,11.6148202 C85.5548304,15.0845187 86.71875,19.1231142 86.71875,23.4335284 L86.71875,23.46788 C86.71875,36.4050182 76.2248555,46.9014085 63.2799806,46.9014085 L23.4387694,46.9014085 C10.4926808,46.9014085 0,36.4098604 0,23.46788 L0,23.4335284 C0,10.4963902 10.4938945,0 23.4387694,0 L63.2799806,0 C68.6767893,0 73.6472477,1.82320909 77.6089681,4.88710617 C79.6610703,4.70226588 83.5218488,4.47410362 84.2069975,5.29063205 C84.8650843,6.07490936 84.0652778,9.57703928 83.5240014,11.6148202 Z" id="bubble-typing" transform="translate(43.359375, 23.450704) scale(-1, 1) translate(-43.359375, -23.450704) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="228px" height="48px" viewBox="0 0 228 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>bubble-friend</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="chat-human-keyboard" transform="translate(-20.000000, -348.000000)" fill="#DBEBFF">
+            <g id="text-type" transform="translate(20.000000, 348.341549)">
+                <path d="M224.005108,11.3720403 C226.124942,14.8955477 227.34375,19.0221899 227.34375,23.4335284 L227.34375,23.46788 C227.34375,36.4050182 216.8462,46.9014085 203.896815,46.9014085 L23.4469346,46.9014085 C10.490497,46.9014085 0,36.4098604 0,23.46788 L0,23.4335284 C0,10.4963902 10.4975502,0 23.4469346,0 L203.896815,0 C209.730122,0 215.063577,2.12665947 219.164848,5.64613418 C221.202528,5.37212876 224.34451,5.0731163 224.901785,5.73725111 C225.456147,6.39791401 224.627736,9.41196744 224.005108,11.3720403 Z" id="bubble-friend" transform="translate(113.671875, 23.450704) scale(-1, 1) translate(-113.671875, -23.450704) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

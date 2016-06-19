@@ -1,0 +1,116 @@
+<html>
+
+<head>
+
+<title>MeowMeow Client</title>
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles/style.css"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://cdn.socket.io/socket.io-1.4.3.js"></script>
+<!-- <script src="js/chat_demo.js"></script> -->
+
+
+</head>
+
+<body data-page='chat' id='the-screen'>
+
+
+<div id="header" class='row'>
+
+<div class='header-col' id='home-header'>
+	<img id='home-icon' src="images/screen-chat/btn-home.png" />
+</div>
+
+<div class='header-col' id='score-header'>
+	<div id='score-above-bar'>
+		<span id='score-number'>155</span>
+		<img id='score-icon' class='header-icon' src="images/screen-chat/ic-star.png" />
+	</div>
+	<div id='score-progress' class="progress">
+		<div id='score-bar' class="progress-bar" role="progressbar" aria-valuenow="30"
+ 		 aria-valuemin="0" aria-valuemax="100" style="width:30%"></div> 
+ 	 </div>
+</div>
+
+<div class='header-col' id='avatar-header'>
+	<img id='avatar-icon' src="images/screen-chat/img-cat.png" />
+</div>
+
+<div class='header-col' id='love-food-header'>
+	
+	<div id='love-header'>	 
+	  <div id='love-progress' class="progress">
+		<div id='love-bar' class="progress-bar" role="progressbar" aria-valuenow="40"
+	  aria-valuemin="0" aria-valuemax="100" style="width:30%"></div>
+	  </div> 
+	  <img id='love-icon' class="header-icon" src="images/screen-chat/ic-life.png" />
+	 </div>
+
+	 <div id='food-header'>
+	   <div id='food-progress' class="progress">
+		<div id='food-bar' class="progress-bar" role="progressbar" aria-valuenow="50"
+	  aria-valuemin="0" aria-valuemax="100" style="width:30%"></div>
+	  </div>
+	  <img id='food-icon' class="header-icon" src="images/screen-chat/ic-food.png" /> 
+	 </div>
+
+ </div>
+
+</div>
+
+<div id="top-right-doc" class="doc-div">
+	The love bar is decreasing. High love would result in bonuses and other positive events.<br/>
+	<br/>
+	The hunger bar measures how hungry the cat is. If it becomes empty it would represent the can becoming unhealthy. This forces both players to maintain some sort of constant contact with each other. 
+</div>
+
+
+
+<div id='chat-area' class='row'>
+
+</div>
+
+<div id='footer' class='row'>
+
+<form id='text-messanger'>
+	<input id='the-text-area' type="text" name="text" />
+</form>
+	<img class="emoticon-button" data-id='text' src="images/screen-chat/btn-text.png" id='text-button' /> 	
+	<img class="emoticon-button" data-id='actions' src="images/screen-chat/btn-sticker.png" id='actions-button' /> 
+	<img class="emoticon-button" data-id='food' src='images/screen-chat/btn-food.png' id='food-button' /> 
+	<img class="emoticon-button" data-id='love' src='images/screen-chat/btn-love.png' id='love-button' /> 
+</div>
+
+<div id='emoticon-menu-area' class="row">
+
+<div id='keyboard-area' class='emoticon-area'>
+	<img id='the-keyboard' src="images/screen-chat/keyboard-cat.png">
+</div>
+	
+<div id='actions-area' class='emoticon-area'>
+
+</div>
+
+<div id='food-area' class='emoticon-area'>
+	<!--
+	<a data-id="pet" data-effect="{love:1,food:0}""  class='emoticon'><img class="sticker-image" src="images/stickers-human/pizza.jpg"></a>
+	<a data-id='pet' data-effect='{love:1,food:0}'  class='emoticon'><img class="sticker-image" src="images/stickers-human/fish.jpg"></a>
+	<a data-id='pet' data-effect='{love:1,food:0}'  class='emoticon'><img class="sticker-image" src="images/stickers-human/lasagna.jpg"></a>
+	<a data-id='pet' data-effect='{love:1,food:0}'  class='emoticon'><img class="sticker-image" src="images/stickers-human/friskies.jpg"></a>
+	-->
+</div>
+
+<div id='love-area' class='emoticon-area'>
+
+</div>
+
+
+</div>
+
+
+</body>
+
+
+</html>
