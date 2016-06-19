@@ -40,15 +40,15 @@ var cat_stickers = {
             {src:'images/stickers-cat/cat-orange4.jpg', love:2, food:0, score:3, id:'cat-orange4' },
     ],
     actions:[
-            {src:'images/stickers-cat/cat1.jpg', love:1, food:0, score:1, id:'cat1' },
-            {src:'images/stickers-cat/cat2.jpg', love:1, food:0, score:1, id:'cat2' },
-            {src:'images/stickers-cat/cat3.jpg', love:1, food:0, score:1, id:'cat3' },
-            {src:'images/stickers-cat/cat4.jpg', love:1, food:0, score:1, id:'cat4' },
-            {src:'images/stickers-cat/cat5.jpg', love:1, food:0, score:1, id:'cat5' },
-            {src:'images/stickers-cat/cat6.jpg', love:1, food:0, score:1, id:'cat6' },
-            {src:'images/stickers-cat/cat7.jpg', love:1, food:0, score:1, id:'cat7' },
-            {src:'images/stickers-cat/cat8.jpg', love:1, food:0, score:1, id:'cat8' },
-            {src:'images/stickers-cat/cat9.jpg', love:1, food:0, score:1, id:'cat9' },
+            {src:'images/stickers-cat/cat1.png', love:1, food:0, score:1, id:'cat1' },
+            {src:'images/stickers-cat/cat2.png', love:1, food:0, score:1, id:'cat2' },
+            {src:'images/stickers-cat/cat3.png', love:1, food:0, score:1, id:'cat3' },
+            {src:'images/stickers-cat/cat4.png', love:1, food:0, score:1, id:'cat4' },
+            {src:'images/stickers-cat/cat5.png', love:1, food:0, score:1, id:'cat5' },
+            {src:'images/stickers-cat/cat6.png', love:1, food:0, score:1, id:'cat6' },
+            {src:'images/stickers-cat/cat7.png', love:1, food:0, score:1, id:'cat7' },
+            {src:'images/stickers-cat/cat8.png', love:1, food:0, score:1, id:'cat8' },
+            {src:'images/stickers-cat/cat9.png', love:1, food:0, score:1, id:'cat9' },
     ]
 };
 
@@ -207,6 +207,7 @@ function set_character(){
     }
     else{ 
         $('#the-keyboard').hide();
+        $('#avatar-icon').attr('src','images/screen-choice/btn-human.png');
         set_character_stickers(human_stickers);
     }
 };

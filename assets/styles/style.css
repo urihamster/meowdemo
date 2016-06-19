@@ -14,6 +14,14 @@ body {
     height: 65px;
 }
 
+#entrance-image{
+	width: 160px;
+}
+
+#the-screen-home{
+	background:url("../images/screen-launch/gatoazul.jpg");
+}
+
 #home-icon{
 	float: left;
 	width: 60px;
@@ -115,6 +123,14 @@ body {
     font-size: 10px;
     width: 200px;
     margin-left: 350px;
+    margin-top: -66px;
+}
+
+#bottom-left-doc{
+	position: absolute;
+    font-size: 10px;
+    width: 200px;
+    margin-left: -205px;
     margin-top: -66px;
 }
 
