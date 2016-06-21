@@ -224,7 +224,7 @@ function tick(){
 
 
 function set_chat(){
-    socket = io.connect("http://localhost:1337/");
+    socket = io.connect("http://52.58.235.143/:1337/");
 
     socket.on('connect', function () {
               
